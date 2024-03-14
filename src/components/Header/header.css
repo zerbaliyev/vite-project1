@@ -1,0 +1,39 @@
+
+a {
+    text-decoration: none;
+    color: #151618;
+}
+
+
+.header__inner {
+    justify-content: space-between;
+    display: flex;
+    padding-bottom: 28px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+.menu__list {
+    display: flex;
+    gap: 65px;
+    list-style: none;
+}
+
+.user__actions {
+    display: flex;
+    height: 29px;
+    align-items: flex-start;
+    gap: 20px;
+    list-style: none;
+}
+.user-actions {
+    display: inline-flex;
+    align-items: center;
+    gap: 100px;
+    /* list-style: none; */
+}
+.gap {
+    gap: 20px;
+}

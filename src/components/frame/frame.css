@@ -1,0 +1,19 @@
+.frame__text{
+    padding: 150px 0;
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+}
+.frame__title {
+    text-align: center;
+    font-size: 40px;
+    line-height: normal;
+    padding-bottom: 60px;
+}
+.frame__section-items{
+    padding-bottom: 150px;
+    justify-content: space-between;
+    display: flex;
+    text-align: center;
+    gap: 40px;
+}

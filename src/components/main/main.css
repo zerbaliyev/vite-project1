@@ -1,0 +1,26 @@
+
+.main {
+    background: url(imgs/calm.jpg);
+    position: relative;
+    z-index: 1;
+    
+}
+.main-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 500px;
+    position: relative;
+    z-index: 2;
+}
+.main-body__title {
+    color: var(--White, #FFF);
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+.main-body__text {
+    color: var(--White, #FFF);
+    font-size: 24px;
+    line-height: normal;
+    padding-bottom: 48px;
+}

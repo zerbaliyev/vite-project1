@@ -1,0 +1,31 @@
+.info__img {
+    right: 0;
+    position: absolute;
+    width: 40%;
+    margin-top: -60px;
+}
+.card {
+    align-items: center;
+    padding-bottom: 150px;
+}
+.part__title {
+    padding-top: 150px;
+    text-align: center;
+    font-size: 40px;
+    line-height: normal;
+}
+.card__element {
+    display: flex;
+    gap: 49px;
+}
+.card__title {
+    padding-top: 60px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    line-height: normal;
+}
+.card__text {
+    padding-bottom: 40px;
+    font-weight: 600;
+    line-height: normal;
+}
