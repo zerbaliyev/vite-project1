@@ -1,17 +1,20 @@
 import React, { useState } from 'react'
 import "../Header/header.css"
+import logo from '../../../public/Header-images/logo.svg'
+import baskey from '../../../public/Header-images/baskey.svg'
+import user from '../../../public/Header-images/user.svg'
+import search from '../../../public/Header-images/search.svg'
 
 function Header() {
   
-      
-        return (
-          <>
+    return (
+    <>
           
     <header className="header">
         <div className="container">
             <div className="header__inner">
                 <a>
-                    <img src="imgs/logo.svg" alt=""/>
+                    <img src= {logo}/>
                 </a>
                 <nav className="menu">
                 <ul className="menu__list">
@@ -37,31 +40,31 @@ function Header() {
                     <ul className="user-actions">
                         <li className="user-actions__item">
                             <a href="#" className="user-actions__link">
-                                {/* <img src="imgs/baskey.svg" className="user-actions__icon" alt=""> */}
+                                 <img src= {baskey} className="user-actions__icon" />
                             </a>
                         </li>
                     </ul>
                     <ul className="user-actions">
                         <li className="user-actions__item">
                             <a href="#" className="user-actions__link">
-                                {/* <img src="imgs/user.svg" className=" user-actions__icon" alt=""> */}
+                               <img src= {user} className=" user-actions__icon"/>
                             </a>
                         </li>
                     </ul>
                     </div>
-                    <ul className="user-actions">
-                        <li className="user-actions__item">
-                            <a href="#" className="user-actions__link">
-                                {/* <img src="imgs/search.svg" class="user-actions__icon" alt=""> */}
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+                        <ul className="user-actions">
+                            <li className="user-actions__item">
+                                <a href="#" className="user-actions__link">
+                                <img src= {search} class="user-actions__icon"/>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </header>
-          </>
-        )  
+    </>
+    )  
 }
 
 export default Header

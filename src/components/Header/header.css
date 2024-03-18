@@ -32,8 +32,6 @@ a {
     display: inline-flex;
     align-items: center;
     gap: 100px;
-    /* list-style: none; */
+    list-style: none;
 }
-.gap {
-    gap: 20px;
-}
+
