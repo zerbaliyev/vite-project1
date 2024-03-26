@@ -1,6 +1,8 @@
 import React from 'react'
 import "../card/card.css"
 import Vector from '../../../public/Card-images/Vector1.svg'
+import Vector2 from '../../../public/Card-images/Vector2.png'
+import Vector3 from '../../../public/Card-images/Vector3.svg'
 import Group from '../../../public/Card-images/Group.svg'
 
 export default function CardSection() {
@@ -19,13 +21,13 @@ export default function CardSection() {
             <div>
             <h3 className="card__title">Complete transparency</h3>
             <p className="card__text">Best Drinking Experience</p>
-            {/* <img className="card__img" src= {Vector} alt=""/> */}
+            <img className="card__img" src= {Vector2} alt=""/>
             </div>
 
             <div>
             <h3 className="card__title">Customer support</h3>
             <p className="card__text">No bots, no automated replies</p>
-            {/* <img className="card__img" src= {Vector} alt=""/> */}
+            <img className="card__img" src= {Vector3} alt=""/>
             </div>
 
             <div>

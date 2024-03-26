@@ -88,3 +88,10 @@
     padding-left: 192px;
     gap: 20px;  
 }
+.footer__list {
+    list-style: none;
+}
+.footer__list a {
+    display: inline-flex;
+    gap: 20px;    
+}

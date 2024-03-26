@@ -3,8 +3,6 @@ a {
     text-decoration: none;
     color: #151618;
 }
-
-
 .header__inner {
     justify-content: space-between;
     display: flex;
@@ -19,6 +17,10 @@ a {
     display: flex;
     gap: 65px;
     list-style: none;
+}
+.menu__list  :hover a {
+    background-color: rgb(236, 236, 236);
+    border-radius: 8px;
 }
 
 .user__actions {

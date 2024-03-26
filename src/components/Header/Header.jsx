@@ -13,27 +13,29 @@ function Header() {
     <header className="header">
         <div className="container">
             <div className="header__inner">
-                <a>
-                    <img src= {logo}/>
-                </a>
-                <nav className="menu">
                 <ul className="menu__list">
                     <li>
-                        <a href="#">Black</a>
-                    </li>
-                    <li>
-                        <a href="#">Green</a>
-                    </li>
-                    <li>
-                        <a href="#">White</a>
-                    </li>
-                    <li>
-                        <a href="#">Oolong</a>
-                    </li>
-                    <li>
-                        <a href="#">Pu-erh</a>
+                        <a href="#"><img src= {logo}/></a>
                     </li>
                 </ul>
+                <nav className="menu">
+                    <ul className="menu__list">
+                        <li>
+                            <a href="#">Black</a>
+                        </li>
+                        <li>
+                            <a href="#">Green</a>
+                        </li>
+                        <li>
+                            <a href="#">White</a>
+                        </li>
+                        <li>
+                            <a href="#">Oolong</a>
+                        </li>
+                        <li>
+                            <a href="#">Pu-erh</a>
+                        </li>
+                    </ul>
                 </nav>
                 <div className="user-actions">
                     <div className="user__actions">

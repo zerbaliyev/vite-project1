@@ -19,7 +19,7 @@ export default function FooterSection() {
                 <div className="footer__element">
                 <nav className="footer__menu">
                     <h2>Products</h2>
-                    <ul className="footer__link">x``
+                    <ul className="footer__link">
                         <li>
                             <a href="#">Black</a>
                         </li>
@@ -102,11 +102,17 @@ export default function FooterSection() {
                                 <img src= {telephone} alt=""/>
                                 <p>info@tealuxe.com</p>
                             </div>
-                            <div className="icon">
-                                <img src= {Facebook} alt=""/>
-                                <img src= {Youtube} alt=""/>
-                                <img src= {Instagram} alt=""/>
-                                <img src= {Twiter} alt=""/>
+                            <div className="">
+                                <ul className="footer__list">
+                                    <li>
+                                        <a href="">
+                                        <img src= {Facebook} alt=""/>
+                                        <img src= {Youtube} alt=""/>
+                                        <img src= {Instagram} alt=""/>
+                                        <img src= {Twiter} alt=""/>
+                                        </a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -120,10 +126,16 @@ export default function FooterSection() {
                 </div>
 
                 <div className="footer__logo">
-                    <img src= {masterCard} alt=""/>
-                    <img src= {visaCard} alt=""/>
-                    <img src= {GooglePlay} alt=""/>
-                    <img src= {Paypal} alt=""/>
+                    <ul className="footer__list">
+                        <li>
+                            <a href="#">
+                            <img src= {masterCard} alt=""/>
+                            <img src= {visaCard} alt=""/>
+                            <img src= {GooglePlay} alt=""/>
+                            <img src= {Paypal} alt=""/>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </footer>

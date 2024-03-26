@@ -17,12 +17,14 @@
     padding-left: 58px;
 
 }
+.tea-item-img {
+    padding-top: 25px;
+}
 .tea__item {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding-left: 20px;
-    padding-top: -30px
 }
 .tea__item-title {
     color: var(--Black, #151618);
@@ -35,12 +37,20 @@
     line-height: normal;
 }
 .tea-img {
-    height: 15px;
-    top: -20px;    
+  padding-bottom: -20px; 
+}
+.read  :hover  {
+    background-color: rgb(142, 138, 138);
+    
 }
 .tea-btn  {
     cursor: pointer;
     padding: 10px 30px;
     border-radius: 5px;
-    align-items: center;
+}
+.btn {
+    text-align: center;
+}
+.btn :hover  {
+    background-color: rgb(160, 160, 160)
 }

@@ -25,19 +25,21 @@
     padding-left: 60px;
     padding-top: 160px;
 }
-.ino__input {
-    border: none;
-    color: var(--Light-Green, #B8B58B);
+.info__input {
+    color: black;
     font-size: 20px;
     font-style: normal;
-    font-weight: 300;
-    line-height: 150%;
-
+    text-align: center;
 }
-
+.info__btn {
+    padding: 15px 40px;
+    cursor: pointer;
+    margin-left: 10px;
+}
 .info__img {
     right: 0;
     position: absolute;
+    z-index: -1;
     width: 40%;
     margin-top: -60px;
 }

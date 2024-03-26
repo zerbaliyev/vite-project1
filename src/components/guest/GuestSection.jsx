@@ -1,5 +1,6 @@
 import React from 'react'
 import "../guest/guest.css"
+import tree from '../../../public/Guest-images/tree.svg'
 
 export default function GuestSection() {
   return (
@@ -17,7 +18,7 @@ export default function GuestSection() {
             </div>
 
             <div className="info__item-input">
-                {/* <img className="info__img" src="imgs/AgacSekil.png" alt=""> */}
+                <img className="info__img" src= {tree} alt=""/>
                 <input className="info__input" type="text" placeholder="name@email.com"/>
                 <button className="info__btn">Join</button>
                 <hr/>
